@@ -12,23 +12,23 @@ Some feature variables contains a X,Y and Z variant containing the variable valu
 
 Below are the feature variables contained in the dataset:
 
-tBodyAcc - contains a X,Y and Z variant
-tGravityAcc - contains a X,Y and Z variant
-tBodyAccJerk - contains a X,Y and Z variant
-tBodyGyro - contains a X,Y and Z variant
-tBodyGyroJerk - contains a X,Y and Z variant
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc - contains a X,Y and Z variant
-fBodyAccJerk - contains a X,Y and Z variant
-fBodyGyro - contains a X,Y and Z variant
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc - contains a X,Y and Z variant
+- tGravityAcc - contains a X,Y and Z variant
+- tBodyAccJerk - contains a X,Y and Z variant
+- tBodyGyro - contains a X,Y and Z variant
+- tBodyGyroJerk - contains a X,Y and Z variant
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc - contains a X,Y and Z variant
+- fBodyAccJerk - contains a X,Y and Z variant
+- fBodyGyro - contains a X,Y and Z variant
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 
 ## Processed variable names

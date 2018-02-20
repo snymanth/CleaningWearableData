@@ -35,14 +35,14 @@ Run the "run_analysis.R" script by executing "source("run_analysis.R")"
 
 The repository contains 3 scripts each responsible for a seperate part of the processing as well as a master script that executes all 3 in the correct sequence. 
 
-LoadData.R: Loads the data from the public dataset by referencing the environmental variable "DATA_PATH" containing the path to the dataset. It is assumed that folder and file layout is not changed after the dataset has been downloaded. 
+**LoadData.R**: Loads the data from the public dataset by referencing the environmental variable "DATA_PATH" containing the path to the dataset. It is assumed that folder and file layout is not changed after the dataset has been downloaded. 
 
-CleanData.R: Cleans the data by first merging the test data set with the training data set and then filtering the fields to only the mean and standard deviation variants of the measurements. The activity labels are merged into the final dataset. This script depends on LoadData.R having been executed. 
+**CleanData.R**: Cleans the data by first merging the test data set with the training data set and then filtering the fields to only the mean and standard deviation variants of the measurements. The activity labels are merged into the final dataset. This script depends on LoadData.R having been executed. 
 
-SummariseData.R: Summarises the data across all observations per subject and activity label. 
+**SummariseData.R**: Summarises the data across all observations per subject and activity label. 
 
-run_analysis.R: A master script that calls the above 3 scripts. 
+**run_analysis.R**: A master script that calls the above 3 scripts. 
 
-A variable will be saved in your workspace called cleanData and will contain the resulting dataset. 
+When the script has finished executing a variable will be saved in your workspace called "cleanData"" which contains the resulting dataset. 
 
 There is also a code book available (CodeBook.md) in the repository describing the different variables. 
